@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Radio+Canada:wght@400;500&family=Roboto:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main{
+    background-color: #dadada;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+
+}
+body::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #408c3d;  
+    border-radius: 20px;      
+ 
+}
+
+pre-line{
+    font-family: monospace;
+}
+
+.navbar{
+    background-color: #408c3d; /*color node js*/ /*#5da552 another color of node js*/;
+}
+
+.titulos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align-last: center; 
+}
+
+.subtitulos{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.paragraphs{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#img{
+    display:block;
+    margin:auto;
+    width: 577px;
+    height: 433px;
+    
+}
+

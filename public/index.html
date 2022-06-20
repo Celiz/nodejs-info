@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link type="image/png" sizes="16x16" rel="icon" href="images/favicon.ico">
+    <title>Node js</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="titulos">NODE JS</h1>
+    </nav>
+    <main>
+       
+        <h2 class="subtitulos">Historia</h2>
+        <p class="paragraphs">
+            Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) 
+            basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y 
+            basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, 
+            como por ejemplo, servidores web. Fue creado por Ryan Dahl en 2009 y su evolución está apadrinada por la empresa Joyent, 
+            que además tiene contratado a Dahl en plantilla. <br><br>
+
+            Node.js es similar en su propósito a Twisted o Tornado de Python, Perl Object Environment de Perl, libevent o libev de C, 
+            EventMachine de Ruby, vibe.d de D y Java EE de Java existe Apache MINA, Netty, Akka, Vert.x, Grizzly o Xsocket. 
+            Al contrario que la mayoría del código JavaScript, no se ejecuta en un navegador, sino en el servidor. 
+            Node.js implementa algunas especificaciones de CommonJS. Node.js incluye un entorno REPL para depuración interactiva.
+        </p>
+
+        <h2 class="subtitulos">¿En que esta escrito?</h2>
+        <p class="paragraphs">
+            Node.js está escrito en C, C++ y JavaScript.
+
+            Wikipedia define Node.js como «una compilación empaquetada del motor JavaScript V8 de Google, la capa de abstracción de la plataforma libuv y una biblioteca central, que a su vez está escrita principalmente en JavaScript».
+
+            El tiempo de ejecución utiliza internamente Chrome V8, que es el motor de ejecución de JavaScript, y también está escrito en C++. Esto añade casos de uso adicionales al repertorio de Node.js, como el acceso a la funcionalidad interna del sistema (como la red).
+        </p>
+
+        <h2 class="titulos">Introducción a Node.js</h2>
+
+        <h2 class="subtitulos">En macOS</h2>
+        <p class="paragraphs">Uso de Bash en Mac</p>
+        <pre-line>curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"</pre-line>
+        
+        <h2 class="subtitulos">Uso de Homebrew en Mac</h2>
+        <pre>brew install node</pre>
+
+        <h2 class="subtitulos">En Windows</h2>
+        <p class="paragraphs">Descargua el instalador de Windows directamente desde el sitio web<a href="https://nodejs.org/en/#home-downloadhead">nodejs.org.</a></p>
+      
+        <h2 class="subtitulos">En Linux</h2>
+        <p class="paragraphs"> En Ubuntu 18.04+ puedes instalar Node usando los siguientes comandos.</p>
+        <pre>sudo apt update <br>sudo apt install nodejs</pre>
+
+
+        <h2 class="titulos">Comprueba la versión de Node.js instalada</h2>
+        <p class="paragraphs">En la sección anterior, hemos instalado con éxito Node. Vamos a verificarlo comprobando la versión instalada. Ejecuta el siguiente comando en la terminal.</p>
+        <pre>node --v </pre>
+
+
+        <h2 class="titulos">Aplicaciones Node js</h2>
+        <img id="img" src="images/nodejs-applications.png" alt="nodejs_apps">
+    </main>
+</body>
+
+</html>
